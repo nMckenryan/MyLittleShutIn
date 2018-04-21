@@ -1,0 +1,232 @@
+run:
+ ___ ___  __ __      _      ____  ______  ______  _        ___       _____ __ __  __ __  ______        ____  ____  
+|   |   ||  |  |    | |    |    ||      ||      || |      /  _]     / ___/|  |  ||  |  ||      |      |    ||    \ 
+| _   _ ||  |  |    | |     |  | |      ||      || |     /  [_     (   \_ |  |  ||  |  ||      | _____ |  | |  _  |
+|  \_/  ||  ~  |    | |___  |  | |_|  |_||_|  |_|| |___ |    _]     \__  ||  _  ||  |  ||_|  |_||     ||  | |  |  |
+|   |   ||___, |    |     | |  |   |  |    |  |  |     ||   [_      /  \ ||  |  ||  :  |  |  |  |_____||  | |  |  |
+|   |   ||     |    |     | |  |   |  |    |  |  |     ||     |     \    ||  |  ||     |  |  |         |  | |  |  |
+|___|___||____/     |_____||____|  |__|    |__|  |_____||_____|      \___||__|__| \__,_|  |__|        |____||__|__|
+*-------------------------------*
+Welcome to My Little Shut-In! 
+ Type 'new' to start a new game 
+ Type 'load' to load an old game
+Type 'exit' to Quit
+*-------------------------------*
+
+new
+What is your Shut-in's name?
+Joey TightLips
+Ah! so your Shut-in's name is Joey TightLips?
+Type '1' for 'Yes' 
+Type '2' for 'No' 
+
+2
+Alright, Try Again. Don't mess this up. 
+What is your Shut-in's Name?
+Jimmy the Snitch
+Ah! so your Shut-in's name is Jimmy the Snitch?
+Type '1' for 'Yes' 
+Type '2' for 'No' 
+
+1
+Very Good!
+
+
+ Welcome to the world of My Little ShutIn!
+You are in charge of Jimmy the Snitch, an anti-social Shut in, who, at the ripe 
+old age of 19, has decided that the only way he will get any satistifaction or 
+recognition in this life is to become the World's Fattest Man.
+
+ - Your goal is to keep your little cretin alive for as long as possible.
+ - Keep him as Entertained and Healthy as possible. Don't make him starve either.
+ - Every 5 Second in Game, a day will pass
+ - Each Day, a random event may occur that will effect your character's well being. 
+ - Every week you will get a chance to buy supplies for your character. 
+
+ Once you understand everything, Press any key then hit enter to continue.
+
+2
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 1
+HUNGER: 12 BOREDOM: 21 BODYWEIGHT: 69.1 HEALTH: 89 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+While playing the Realm of Conflict, Jimmy the Snitch offers to upgrade other player's armour for free, then logs off once they have given him their gear.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 2
+HUNGER: 14 BOREDOM: 22 BODYWEIGHT: 68.9 HEALTH: 88 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch is complaining about how hard it is living in a Fully Developed Country.
+
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 3
+HUNGER: 16 BOREDOM: 23 BODYWEIGHT: 68.7 HEALTH: 87 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch is giving unwanted, ill-informed and frankly, dangerous Squat form advice on the BodyCrafting.com Forums.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 4
+HUNGER: 18 BOREDOM: 24 BODYWEIGHT: 68.6 HEALTH: 86 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch is browsing Trenchcoats online.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 5
+HUNGER: 20 BOREDOM: 25 BODYWEIGHT: 68.4 HEALTH: 85 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch is busy cyberbullying Phil Wheaton on Twutter.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 6
+HUNGER: 22 BOREDOM: 26 BODYWEIGHT: 68.2 HEALTH: 84 FUNDS: 50
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch is stealing Fresh Memes and sharing them on Plebbit as his own creation.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 7
+HUNGER: 24 BOREDOM: 27 BODYWEIGHT: 68 HEALTH: 83 FUNDS: 70
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+Jimmy the Snitch's Weekly Funds have arrived! What do you spend your ""hard earned"" dough on? 
+Type 1 to buy three packs of Cards for the game 'Gwentstone: The Gathering ($10)
+Type 2 to order Waifu Warriors: Season 1 ($20)
+Type 3 to order a small stash of Food from Mymridon.com. ($20)
+Type 4 to order a large stash of Food from Larry's Discount Warehouse. ($40)
+Type 5 to buy some BitDucats Cryptocurrency. ($50)
+Type 6 to order Weight Gainer 4000 (with extra Hydrochoridites). ($80) 
+Type 7 to purchase Chinese Health Supplements from DjinniExpress ($30) 
+Type 8 to save your money until next week.
+5
+BitDucats is a very volatile currency. The price could skyrocket or it could plummet. 
+You will not see a return on your investment for a while. Are you sure you want to invest? 
+Press '1' for Yes, Press '2' for No.
+1
+An Excited Jimmy the Snitch converts $50 into BitDucats, thinking he'll be loaded in no time. (-$50 Funds) 
+
+BUILD STOPPED (total time: 1 minute 18 seconds)
+

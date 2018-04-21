@@ -1,0 +1,79 @@
+run:
+ ___ ___  __ __      _      ____  ______  ______  _        ___       _____ __ __  __ __  ______        ____  ____  
+|   |   ||  |  |    | |    |    ||      ||      || |      /  _]     / ___/|  |  ||  |  ||      |      |    ||    \ 
+| _   _ ||  |  |    | |     |  | |      ||      || |     /  [_     (   \_ |  |  ||  |  ||      | _____ |  | |  _  |
+|  \_/  ||  ~  |    | |___  |  | |_|  |_||_|  |_|| |___ |    _]     \__  ||  _  ||  |  ||_|  |_||     ||  | |  |  |
+|   |   ||___, |    |     | |  |   |  |    |  |  |     ||   [_      /  \ ||  |  ||  :  |  |  |  |_____||  | |  |  |
+|   |   ||     |    |     | |  |   |  |    |  |  |     ||     |     \    ||  |  ||     |  |  |         |  | |  |  |
+|___|___||____/     |_____||____|  |__|    |__|  |_____||_____|      \___||__|__| \__,_|  |__|        |____||__|__|
+*-------------------------------*
+Welcome to My Little Shut-In! 
+ Type 'new' to start a new game 
+ Type 'load' to load an old game
+Type 'exit' to Quit
+*-------------------------------*
+
+oad
+Try Again 
+
+*-------------------------------*
+Welcome to My Little Shut-In! 
+ Type 'new' to start a new game 
+ Type 'load' to load an old game
+Type 'exit' to Quit
+*-------------------------------*
+
+load
+Type the full name of the Shut-In you want to load: (Try Rodger Default for a Trial)
+Anthony Birch
+Loaded: Anthony Birch!
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 44
+HUNGER: 34 BOREDOM: 0 BODYWEIGHT: 80.9 HEALTH: 100 FUNDS: 200
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+
+Anthony Birch is browsing Trenchcoats online.
++---------------------------------------------------+ 
+
+                 
+        __        
+       /  \      
+     -------     
+      @   @      
+      @   @       
+      @@ @@      
+        @        
+     @@   @@     
+    @ @   @ @    
+    @ @-1-@ @    
+      @   @      
+      @@@@@      
+      @   @      
+      @   @      
+     @@   @@@    
+
+DAY 45
+HUNGER: 35 BOREDOM: 0 BODYWEIGHT: 81.2 HEALTH: 100 FUNDS: 200
+ **Note: This Game auto-saves every day. Exit this program to exit.**
+
+
+Anthony Birch is giving unwanted, ill-informed and frankly, dangerous Squat form advice on the BodyCrafting.com Forums.
++---------------------------------------------------+ 
+
