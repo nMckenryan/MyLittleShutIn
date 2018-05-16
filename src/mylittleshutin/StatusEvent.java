@@ -1,5 +1,7 @@
 package mylittleshutin;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
@@ -19,22 +21,55 @@ public class StatusEvent {
 		eventChoice = "0";
 	}
 	
-	//INSTANT EVENTS - Events that don't require an player interaction.
+	//INSTANT EVENTS - Handles events that don't require an player interaction.
+	public void instaEvent(ShutIn sampleShutIn, String message, String targetStats, String statChange) {
+		System.out.println(message);
+		System.out.println(targetStats + "   " + statChange);
+		String[] statsEffected = targetStats.split(":"); //statsEffected designates codes to stat types, each divided by : character.
+				//e.g. H = hunger, B = Boredom, M = Health(Medical), F = Funds.
+				//		h = hunger gains, b = boredom gains, m = health gains, f = fund gains.
+				//statChange works the same. statEffected = "H:b" statChange = "10|-5" means Hunger goes up 10, BoredomGains down 5.
+		String[] statList = statChange.split("\\|");
 	
-	public void cleanRoom(ShutIn sampleShutIn) {
-        System.out.println("Your mother storms into your room and demands that you clean it!\n"
-				+ "You do as she asks quickly, for fear that she might cut off your chicken nuggest supplies. \n"
-				+ "You feel like you burned a few calories, but having a cleaning calmed you down. (-0.2 Weight Gain, -10 Boredom.)\n");
-		sampleShutIn.changeHungerGains(-0.2f);
-		sampleShutIn.changeBoredom(-10);
-    }
+		for(int i = 0; i < statsEffected.length; i++) {
+			switch(statsEffected[i]) { //cycles through statE
+				case "H":
+					sampleShutIn.changeHunger(Integer.parseInt(statList[i]));
+					break;
+				case "B":
+					sampleShutIn.changeBoredom(Integer.parseInt(statList[i]));
+					break;
+				case "M":
+					sampleShutIn.changeHealth(Integer.parseInt(statList[i]));
+					break;
+				case "F":
+					sampleShutIn.changeFunds(Integer.parseInt(statList[i]));
+					break;
+				//Changing Stat Gains. (Lowercase Codes)
+				case "h":
+					sampleShutIn.changeHungerGains(Float.parseFloat(statList[i]));
+					break;
+				case "b":
+					sampleShutIn.changeBoredomGains(Float.parseFloat(statList[i]));
+					break;
+				case "m":
+					sampleShutIn.changeHealthGains(Float.parseFloat(statList[i]));
+					break;
+				case "f":
+					sampleShutIn.changeFundGains(Float.parseFloat(statList[i]));
+					break;
+			}
+		}
+	}
 	
-	public void rareHatDrop(ShutIn sampleShutIn) {
-        System.out.println(sampleShutIn + " gets an Ultra Rare Helmet from a Random Drop while playing Squad Citadel 2!\n"
-				+ "He sells it on the JetStream Marketplace immediately. (-20 Boredom, +$20 Funds)\n");
-		sampleShutIn.changeBoredom(-20);
-		sampleShutIn.changeFunds(20);
-    }
+	//Holds the strings used to explain the insta event when it occurs.
+	public String cleanRoomText = "Your mother storms into your Shut-In's room and demands that he clean it!\n"
+				+ "He does as she asks quickly, for fear that she might cut off his chicken nuggest supplies. \n"
+				+ "Your Shut In feels like he burned a few calories, but having a cleaning calmed him down. (-0.2 Weight Gain, -10 Boredom.)\n";
+	
+	public String rareHatText = "Your Shut-In recieved an Ultra Rare Helmet from a Random Drop while playing Squad Citadel 2!\n"
+				+ "He sells it on the JetStream Marketplace immediately. (-20 Boredom, +$20 Funds)\n";
+
 	
 	//This event implements Random Chance. The player has a ~14% to gain a bonus to extra funds, 
 	//otherwise, their funds are cut by quarter.	

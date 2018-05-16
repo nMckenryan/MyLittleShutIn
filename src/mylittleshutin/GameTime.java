@@ -92,7 +92,7 @@ public class GameTime {
 								break;
 						case 4: System.out.println(character + " is speed-running a 20 year old Video Game while streaming to a whopping audience of 3 viewers.");
 								break;
-						case 5: randomEvent.cleanRoom(character);
+						case 5: randomEvent.instaEvent(character, randomEvent.cleanRoomText, "h:B", "-0.2|-10");
 								break;
 						case 6: System.out.println(character + " is having a Romantic Evening with his Anime Wife.");
 								break;
@@ -108,7 +108,7 @@ public class GameTime {
 								break;
 						case 12: System.out.println("While playing the Realm of Conflict, " + character + " offers to upgrade other player's armour for free, then logs off once they have given him their gear.");
 								break;
-						case 13: System.out.println(character + " makes another attempt to read 'How to make Money Drawing Anime', but gives up after ten minutes.");
+						case 13: randomEvent.instaEvent(character, randomEvent.rareHatText, "B:F", "-20|20");
 								break;
 						case 14: System.out.println(character + " just got banned from another Dating app for Hostile Behaviour.");
 								break;
@@ -118,7 +118,7 @@ public class GameTime {
 								break;
 						case 17: System.out.println(character + " is blaming all his problems on someone called 'Chad'.");
 								break;
-						case 18: System.out.println(character + " is busy cyberbullying Phil Wheaton on Twutter.");
+						case 18: System.out.println(character + " is busy cyberbullying Phil Pheaton on Twutter.");
 								break;
 						case 19: System.out.println(character + " is stealing Fresh Memes and sharing them on Plebbit as his own creation.");
 								break;

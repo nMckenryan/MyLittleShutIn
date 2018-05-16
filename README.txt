@@ -41,3 +41,5 @@ FAILSTATES:
  - Hunger state reaches 100. The shutin starves.
  - **t Boredom meter reaches 100. Your shut-in has an ephitany and abandons their quest. Becomes an award winning bodybuilder. t** (standard death applies)
  - **t Death due to random health condition event that occurs at low health stat (Lethal Conditions start occuring at 25 or less Health) t** 0 Health = Death
+
+
