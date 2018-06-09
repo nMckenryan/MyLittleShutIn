@@ -33,71 +33,71 @@ public class Sprites {
 	
 	//The rest of the class contains the Sprites. Added an inconspicous number
 	//on the character's belt to make sprite identification easier during testing.
-	public static final String skinnySprite =    "                 \n" +
+	public static final String skinnySprite =
 								"        __        \n" +
 								"       /  \\      \n" +
 								"     -------     \n" +
-								"      @   @      \n" +
-								"      @   @       \n" +
-								"      @@ @@      \n" +
-								"        @        \n" +
-								"     @@   @@     \n" +
-								"    @ @   @ @    \n" +
-								"    @ @-1-@ @    \n" +
-								"      @   @      \n" +
-								"      @@@@@      \n" +
-								"      @   @      \n" +
-								"      @   @      \n" +
-								"     @@   @@@    \n";
+								"      |   |      \n" +
+								"      |   |       \n" +
+								"      || ||      \n" +
+								"        |        \n" +
+								"     ||   ||     \n" +
+								"    | |   | |    \n" +
+								"    | |-1-| |    \n" +
+								"      |   |      \n" +
+								"      |||||      \n" +
+								"      |   |      \n" +
+								"      |   |      \n" +
+								"     ||   |||    \n";
 
-	public static final String fatSprite =     "                 \n" +
+	public static final String fatSprite =
 									"       __        \n" +
 									"      /  \\     \n" +
 									"    ---------     \n" +
-									"    /@     @\\   \n" +
-									"     @     @     \n" +
-									"      @@ @@      \n" +
-									"       @@@       \n" +
-									"    @@@   @@@@   \n" +
-									"  @ @       @ @  \n" +
-									" @  @---2---@  @ \n" +
-									"    @       @     \n" +
-									"    @@@@@@@@@     \n" +
-									"      @   @      \n" +
-									"      @   @      \n" +
-									"     @@   @@@    \n";
+									"    /|     |\\   \n" +
+									"     |     |     \n" +
+									"      || ||      \n" +
+									"       |||       \n" +
+									"    |||   ||||   \n" +
+									"  | |       | |  \n" +
+									" |  |---2---|  | \n" +
+									"    |       |     \n" +
+									"    |||||||||     \n" +
+									"      |   |      \n" +
+									"      |   |      \n" +
+									"     ||   |||    \n";
 
-	public static final String hugeSprite = "                 \n" +
+	public static final String hugeSprite =
 							"       __      \n" +
 							"      /  \\       \n" +
 							"    ---------     \n" +
-							"   |@      @|    \n" +
-							"   |@      @|     \n" +
-							"     @@@ @@      \n" +
-							"       @@@       \n" +
-							" @@@@@@   @@@@@@ \n" +
-							"@ @           @ @\n" +
-							"@ @--_     _--@ @\n" +
-							"  @  ---3---  @   \n" +
-							"  @  @@@@@@@  @   \n" +
-							"  @@@ @   @ @@@  \n" +
-							"      @   @      \n" +
-							"     @@   @@@    \n";
+							"   ||      ||    \n" +
+							"   ||      ||     \n" +
+							"     ||| ||      \n" +
+							"       |||       \n" +
+							" ||||||   |||||| \n" +
+							"| |           | |\n" +
+							"| |--_     _--| |\n" +
+							"  |  ---3---  |   \n" +
+							"  |  |||||||  |   \n" +
+							"  ||| |   | |||  \n" +
+							"      |   |      \n" +
+							"     ||   |||    \n";
 
-	public static final String giganticSprite = "                 \n" +
+	public static final String giganticSprite =
 							"        __        \n" +
 							"       /  \\       \n" +
 							"     ---------    \n" +
-							"   /@         @\\ \n" +
-							"   |@         @|   \n" +
-							"    ||@@   @@||  \n" +
-							"        @@@       \n" +
-							" @@@@@@@   @@@@@@ \n" +
-							"@ @              @ @\n" +
-							"@ @--_       _---@ @\n" +
-							"  @   ---4---    @   \n" +
-							"  @   @@@@@@@@   @   \n" +
-							"  @  @  @  @  @  @   \n" +
-							"   @@   @  @   @@   \n" +
-							"      @@@  @@@    \n";
+							"   /|         |\\ \n" +
+							"   ||         ||   \n" +
+							"    ||||   ||||  \n" +
+							"        |||       \n" +
+							" |||||||   |||||| \n" +
+							"| |              | |\n" +
+							"| |--_       _---| |\n" +
+							"  |   ---4---    |   \n" +
+							"  |   ||||||||   |   \n" +
+							"  |  |  |  |  |  |   \n" +
+							"   ||   |  |   ||   \n" +
+							"      |||  |||    \n";
 }

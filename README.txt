@@ -1,3 +1,19 @@
+MY LITTLE SHUT-IN VERSION 2.5:
+
+Changelog: 
+- Trimmed down some of the unnecessary bloat and redundant methods.
+- Overhaulled the save system. Game saves are stored in a JDBC/Derby Database, instead of a .txt file. (Operations handled in DatabaseOps)
+- Changed saving methods to work with new database.
+- Methods in 'MyLittleShutIn' migrated to GameInstance GUI class and original class deleted.
+- Created a GUI for the main game program and menu
+- Tested the program with Unit Tests, all can be found inside the Test Packages.
+
+Problems:
+
+- Currently no functionality to enter commands from the GUI into the console, as such, multichoice events have been removed.
+- ShutIns do not have inventory due to problems implementing command entry.
+- Store and Profile buttons do not work.
+
 
 PROGRAM DESIGN AND CONSTRUCTION PROJECT PROPOSAL:
 MY LITTLE SHUT-IN

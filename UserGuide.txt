@@ -1,0 +1,25 @@
+MY LITTLE SHUT IN v2.5 USER GUIDE
+
+The object of this Virtual Pet game is to get your Shut-in to become the World's Fattest Man.
+
+0. LAUNCH SERVER BEFORE STARTING
+1. Start a game, press the 'start game' button or load a game that already exists, type the name of your character into the search bar on the main menu then press 'load'.
+2. You will be prompted to enter a character, a description of the game will appear, explaining to object of the game and possible failstates.
+3. After entering your character's name, The games main screen will appear.
+
+GAMEPLAY
+    - At the top right, you will see your character's avatar, underneath are his vital stats: Hunger, Boredom, Health and Funds.
+    - If Hunger or Health reach Zero, or if Boredom reaches 100, your character will die. This is permanent. 
+    - Your character's stats will change as random events occur, you can directly influence your character's stats by purchasing upgrades from the Store.
+    - The game progresses day by day and your character's stats will change depending on their current modifiers. 
+    - Each day is like a turn, you may perform one action, i.e. shopping for new materials, but this is not mandatory. 
+    - Sometimes, events will require you to make a choice, i.e. 'Press 1 to eat a sandwich, Press 2 to eat a Cucumber'. You may enter your 
+      selection in the text field below the main console. Press the 'Enter' button to enter the command.
+    - You may end the day by pressing the 'End Day' button.
+    - Once a character has died, he is gone forever, you may reload his save, but it will just show the Game Over Screen. 
+5. The game saves automatically, once you are finished playing, simply click the 'x' in the right hand corner or press the 'Go back to main menu button.
+
+LOADING: 
+
+- To load a character, go to the main menu. at the bottom you should see a table with a list of characters. Select the character you wish to load and 
+  press 'Load Game'. 

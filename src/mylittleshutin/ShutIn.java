@@ -3,7 +3,7 @@ package mylittleshutin;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /**
@@ -11,10 +11,12 @@ import java.util.ArrayList;
  * @author Nigel
  */
 
-public class ShutIn implements Serializable {
+public class ShutIn {
+
 	public final int MAX_VALUE = 100;
 	public final int MIN_VALUE = 0;
-
+	
+	private int saveID;
     private String shutInName;
     private double bodyweight;
     private int hunger;
@@ -35,7 +37,9 @@ public class ShutIn implements Serializable {
 
 	
     public ShutIn(){
-        shutInName = "Rodger DeFault";
+		saveID = -1;
+		saveID = 2;
+        shutInName = "Rodger Default";
         bodyweight = Math.random() * (75 - 65) + 65; //Sets the character's weight between 65kg - 75kg
         boredom = 20;
         health = 90;
@@ -44,6 +48,7 @@ public class ShutIn implements Serializable {
 		isAlive = true;
 		daysPassed = 1;
 		inventory = new ArrayList<>();
+		inventory.add("");
 		
 		hungerGains = 1.0f;
 		boredomGains = 1.0f;
@@ -52,6 +57,42 @@ public class ShutIn implements Serializable {
 		fundGains = 20.0f; //per week
     }
 	
+	public ShutIn(String attributeString) {		
+		String[] attPart = attributeString.split(", ");
+		
+		saveID = Integer.parseInt(attPart[0]);
+        shutInName = attPart[1];
+        bodyweight = Double.parseDouble(attPart[2]);
+        boredom = Integer.parseInt(attPart[3]);
+        health = Integer.parseInt(attPart[4]);
+        hunger = Integer.parseInt(attPart[5]);
+        funds = Integer.parseInt(attPart[6]);
+		isAlive = Boolean.parseBoolean(attPart[7]);
+		daysPassed = Integer.parseInt(attPart[8]);
+
+		hungerGains = Float.parseFloat(attPart[9]);
+		boredomGains = Float.parseFloat(attPart[10]);
+		healthGains = Float.parseFloat(attPart[11]);
+		weightGains = Float.parseFloat(attPart[12]);
+		fundGains = Float.parseFloat(attPart[13]);
+		inventory = new ArrayList();
+		inventory.add("nada");
+	}
+	
+	public static ShutIn listToCharacter(ArrayList<String> list) {
+		ShutIn newShutIn = null;
+		try {
+			StringBuilder build = new StringBuilder();
+			for(Object val : list) {
+				build.append(val.toString().replace("'", "")); //trims ' around strings.
+			}
+			newShutIn = new ShutIn(build.toString());
+		} catch (Exception err) {
+			System.out.println("Could not convert list to character: " + err);
+		}
+		return newShutIn;
+	}
+		
 	public void saveGame() { //Handles saving of the game. Completed automatically every game day.
 		try {
 			ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(this + ".txt"));
@@ -98,10 +139,7 @@ public class ShutIn implements Serializable {
 				+ "complaining about Video Games that they hadn't even played.\n"
 				+ "All his possesions were divided and sold, Within a few years he will be forgotten. \n"
 				+ "Ashes to Ashes, Dust to Dust. Be more bloody careful next time. \n"
-				+ "+--------------------------------------------------------------------------+\n\n"
-				+ "Type 'menu' to return to the main Menu, or 'quit' to Quit the Game. \n");
-		
-
+				+ "+--------------------------------------------------------------------------+\n");
 	}
 	
 	public void updateStatus() { //Updates the character's status each day.
@@ -132,14 +170,23 @@ public class ShutIn implements Serializable {
 	//GETTERS AND SETTERS. The 'Setters' have been change to 'Changers' i.e. 'changeVariable' for clarity re: events.
 	
 	@Override
-	public String toString(){
-		return shutInName;
+	public String toString() { //Gets default values for inserting new character into DB
+		return saveID + ", '" + shutInName + "', " + bodyweight + ", " + boredom + ", " + health + ", " + hunger + ", " + funds + ", " + isAlive + ", " + daysPassed + ", " 
+		+ hungerGains + ", " + boredomGains + ", " + healthGains + ", " + weightGains + ", " + fundGains + ", '" + "nada" + "'";
+	}
+	
+	public int getSaveID() {
+		return saveID;
 	}
 
+	public void setSaveID(int shutID) {
+		this.saveID = shutID;
+	}
+	
     public String getShutInName() {
         return shutInName;
     }
-
+	
     public void setShutInName(String shutInName) {
         this.shutInName = shutInName;
     }
@@ -147,6 +194,12 @@ public class ShutIn implements Serializable {
     public double getBodyweight() {
         return bodyweight;
     }
+	
+	public String getTextBodyweight() { //Formats Bodyweight to 2 decimal points for text display
+		DecimalFormat nf = new DecimalFormat("#0.00");     
+        return nf.format(bodyweight);
+    }
+	
 
     public void setBodyweight(float bodyweight) {
         this.bodyweight = bodyweight;
@@ -200,8 +253,8 @@ public class ShutIn implements Serializable {
 		this.daysPassed += 1;
 	}
 	
-	public void addDay2() { //DELETE
-		this.daysPassed += 133;
+	public void setDaysPassed(int passedDays) {
+		this.daysPassed = passedDays;
 	}
 	
 	public float getHungerGains() {
